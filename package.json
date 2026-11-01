@@ -1,0 +1,9 @@
+{
+  "name": "brazil-tv-webos",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "engines": { "node": ">=20" },
+  "scripts": { "build": "node build.mjs", "test": "node --test verify.test.mjs" },
+  "devDependencies": { "@webos-tools/cli": "3.2.6" }
+}

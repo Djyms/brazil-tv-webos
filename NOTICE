@@ -1,0 +1,18 @@
+Brazil TV is an unofficial customization of webOS IPTV Player 1.17.0.
+Original project and source: https://github.com/lennylxx/webos-iptv-player
+Original license: Apache License 2.0 (see LICENSE).
+
+Customizations by Djyms, 2026: Brazil TV artwork, scoped HLS playback policy,
+public-player source resolution, uploaded-playlist startup recovery and webOS
+settings layout correction. Reproducible transformations are in patch-player.cjs,
+stream-resolvers.js, settings-fix.css and build.mjs.
+
+hls.js 1.6.16 by video-dev / Dailymotion is downloaded with a pinned hash.
+Its Apache 2.0 license is retained inside the generated app. All original
+third-party notices and license files are preserved in the package.
+
+Stream links were curated from iptv-org/iptv, Free-TV/IPTV and iptv-com/iptv,
+with public broadcast-player endpoints for selected channels. See sources.json.
+Channel content, names and logos belong to their respective owners. This
+repository does not host or grant rights to broadcast content and has no
+affiliation with LG, broadcasters, streaming platforms or the original author.

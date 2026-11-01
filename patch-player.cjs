@@ -1,0 +1,22 @@
+const assert=require('node:assert/strict');
+module.exports=function(original){
+const marker='if(jt()){if(s!=null&&s.direct){let g=tf(e);ae.info("Selected webOS native playback"';
+assert.equal(original.split(marker).length-1,1,'Expected one native playback selection');
+const replacement='if(jt()&&!(u&&t&&t["iptv.hlsjs"]==="true"&&ZS.__Hls&&ZS.__Hls.isSupported())){if(s!=null&&s.direct){let g=tf(e);ae.info("Selected webOS native playback"';
+let patched=original.replace(marker,replacement);
+const hdMarker='o.on(s.Events.MANIFEST_PARSED,()=>{var l;ae.info("hls.js manifest parsed; starting playback"';
+assert.equal(patched.split(hdMarker).length-1,1,'Expected one HLS manifest callback');
+const hdPolicy='if(t&&t["iptv.hd-min"]==="720"){var hdLevels=o.levels.map(function(level,index){return {height:level.height,bitrate:level.bitrate,index:index}}).filter(function(level){return level.height>=720&&level.height<=1080});if(hdLevels.length){o.config.minAutoBitrate=Math.min.apply(Math,hdLevels.map(function(level){return level.bitrate}));o.startLevel=hdLevels[hdLevels.length-1].index;o.nextAutoLevel=hdLevels[hdLevels.length-1].index;}}';
+patched=patched.replace(hdMarker,'o.on(s.Events.MANIFEST_PARSED,()=>{var l;'+hdPolicy+'ae.info("hls.js manifest parsed; starting playback"');
+const sourceMarker='loadSource(e,t,n,s){let r=this.videoEl;if(!r)return;';
+assert.equal(patched.split(sourceMarker).length-1,1,'Expected one source loader');
+const resolver='if(window.__resolveIPTVSource&&window.__resolveIPTVSource.supports(e)){window.__resolveIPTVSource(e).then(function(url){if(n===this.loadToken&&this.videoEl)this.loadSource(url,t,n,s)}.bind(this)).catch(function(){if(n===this.loadToken)this.callbacks.onError()}.bind(this));return;}';
+patched=patched.replace(sourceMarker,sourceMarker+resolver);
+const startupMarker='this.epgGrid.resetDay();try{let r=A.getPlaylists();';
+assert.equal(patched.split(startupMarker).length-1,1);
+patched=patched.replace(startupMarker,'this.epgGrid.resetDay();try{if(A.getPlaylists().some(function(p){return p.source==="upload"&&p.enabled!==false})){if(yield this.startBundledService())yield this.settings.refreshUploads();}let r=A.getPlaylists();');
+const emptyMarker='this.enterChannelsAfterUploadSync&&A.getPlaylists().length>0&&(this.enterChannelsAfterUploadSync=!1,yield this.loadData())';
+assert.equal(patched.split(emptyMarker).length-1,1);
+patched=patched.replace(emptyMarker,'(this.enterChannelsAfterUploadSync||(!this.loadingData&&N.channels.length===0&&A.getPlaylists().some(function(p){return p.source==="upload"&&p.enabled!==false&&p.count>0})))&&A.getPlaylists().length>0&&(this.enterChannelsAfterUploadSync=!1,yield this.loadData())');
+return patched;
+};

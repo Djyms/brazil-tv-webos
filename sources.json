@@ -1,0 +1,24 @@
+{
+  "snapshotDate": "2026-11-01",
+  "brazilTvChannels": 167,
+  "standardChannels": 164,
+  "collectionSources": [
+    "https://github.com/iptv-org/iptv",
+    "https://github.com/Free-TV/IPTV",
+    "https://github.com/iptv-com/iptv"
+  ],
+  "publicPlayers": [
+    "https://www.band.com.br/ao-vivo",
+    "https://www.dailymotion.com/"
+  ],
+  "excluded": [
+    {
+      "channel": "Globo - TV Bahia (1080i)",
+      "reason": "Unconfirmed source provenance"
+    },
+    {
+      "channel": "Unisul TV (720p)",
+      "reason": "Access token in stream URL"
+    }
+  ]
+}

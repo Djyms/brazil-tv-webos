@@ -1,0 +1,5 @@
+/* Keep the settings content inside its grid row on webOS 5. */
+@supports (display: grid) {
+  .settings-view { grid-template-rows: minmax(0, 1fr); }
+  .settings-main { min-height: 0; }
+}
