@@ -1,4 +1,6 @@
 const assert=require('node:assert/strict');
+const patchHealth=require('./health-patch.cjs');
+const patchRecovery=require('./recovery-patch.cjs');
 module.exports=function(original){
 const marker='if(jt()){if(s!=null&&s.direct){let g=tf(e);ae.info("Selected webOS native playback"';
 assert.equal(original.split(marker).length-1,1,'Expected one native playback selection');
@@ -18,5 +20,5 @@ patched=patched.replace(startupMarker,'this.epgGrid.resetDay();try{if(A.getPlayl
 const emptyMarker='this.enterChannelsAfterUploadSync&&A.getPlaylists().length>0&&(this.enterChannelsAfterUploadSync=!1,yield this.loadData())';
 assert.equal(patched.split(emptyMarker).length-1,1);
 patched=patched.replace(emptyMarker,'(this.enterChannelsAfterUploadSync||(!this.loadingData&&N.channels.length===0&&A.getPlaylists().some(function(p){return p.source==="upload"&&p.enabled!==false&&p.count>0})))&&A.getPlaylists().length>0&&(this.enterChannelsAfterUploadSync=!1,yield this.loadData())');
-return patched;
+return patchRecovery(patchHealth(patched));
 };

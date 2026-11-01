@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "validatedOn": "2026-11-01",
+  "validationCountry": "France",
+  "coverage": {
+    "brazilTvPlaylist": 72,
+    "classicPlaylist": 69,
+    "personalWithOptionalTVBahia": 73
+  },
+  "refreshRecommendationHours": 1,
+  "sources": [
+    {
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz",
+      "format": "XMLTV"
+    },
+    {
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz",
+      "format": "XMLTV"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz",
+      "format": "XMLTV"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml",
+      "format": "XMLTV"
+    }
+  ],
+  "mappings": [
+    {
+      "name": "Rede Brasil (720p)",
+      "xmltvId": "Rede.Brasil.HD.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+    },
+    {
+      "name": "Record News (720p)",
+      "xmltvId": "São.Paulo/SP.Record.News.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+    },
+    {
+      "name": "SBT (1080p)",
+      "xmltvId": "SBT.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "RecordTV (720p)",
+      "xmltvId": "Record.TV.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "Band (720p)",
+      "xmltvId": "Band.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "TV Gazeta (1080p)",
+      "xmltvId": "TV.Gazeta.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "TV Brasil (720p)",
+      "xmltvId": "TV.Brasil.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "TV Cultura (1080p)",
+      "xmltvId": "TV.Cultura.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "TV Aparecida (1080p)",
+      "xmltvId": "TV.Aparecida.(aberta).br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "Rede Vida (1080p)",
+      "xmltvId": "Rede.Vida.br",
+      "sourceUrl": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "Adrenalina Pura TV Brazil (720p)",
+      "xmltvId": "61b790b985706b00072cb797",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "BET Pluto TV BR (720p)",
+      "xmltvId": "5ff768b6a4c8b80008498610",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "BM&C News (720p)",
+      "xmltvId": "666c9c60a7efd40008f552f0",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Bob Esponja Calca Quadrada (720p)",
+      "xmltvId": "62545c0b002f4b0007688b61",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Cine Terror BR (720p)",
+      "xmltvId": "5f12111c9e6c2c00078ef3bb",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Comedy Central Pluto TV BR (720p)",
+      "xmltvId": "5f357e91b18f0b00073583d2",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Comedy Central South Park (720p)",
+      "xmltvId": "609ae66b359b270007869ff1",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Detetives Medicos (720p)",
+      "xmltvId": "638df93ae2f2a3000737c168",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "iCarly (720p)",
+      "xmltvId": "620ff46e0a576e0007dc2f89",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Are you the One? (720p)",
+      "xmltvId": "5f6108d8cc331900075e98e4",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Biggest Pop BR (720p)",
+      "xmltvId": "6047fbdbbb776a0007e7f2ff",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Com o Ex (720p)",
+      "xmltvId": "61a528267e1b8b0007357920",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Dating (720p)",
+      "xmltvId": "6851bb3426beced4f2f67ee6",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Jovens e Maes (720p)",
+      "xmltvId": "620fdc7d8a36fc000710e3ba",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Pluto TV BR (720p)",
+      "xmltvId": "5f1212fb81e85c00077ae9ef",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Reality (720p)",
+      "xmltvId": "6851bdfc9ac48fde5e07f5ae",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "MTV Shore (720p)",
+      "xmltvId": "625463563b8ddc0007134aeb",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Naruto Brazil (720p)",
+      "xmltvId": "5f6df5a173d7340007c559f7",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "NCIS (720p)",
+      "xmltvId": "63eb9fdda995710008991c54",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Nickelodeon Classico (720p)",
+      "xmltvId": "6824ce10c5d53e1351ceb8d1",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Nickelodeon Teen (720p)",
+      "xmltvId": "60f5fabf0721880007cd50e3",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "O Encantador de Caes (720p)",
+      "xmltvId": "61099df8cee03b00074b2ecf",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Oggy e as Baratas Tontas (720p)",
+      "xmltvId": "63221bafdc6e110007b50270",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "One Piece BR (720p)",
+      "xmltvId": "624b1c8d4321e200073ee421",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Aliens (720p)",
+      "xmltvId": "6806d65e84f24b70109485fa",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Bang Bang (720p)",
+      "xmltvId": "663b9dc7cb3ea10008f1a0ce",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Cine Classicos (720p)",
+      "xmltvId": "5fa1612a669ba0000702017b",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Cine Drama (720p)",
+      "xmltvId": "5f1210d14ae1f80007bafb1d",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Cine Familia (720p)",
+      "xmltvId": "5f171f032cd22e0007f17f3d",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Cine Inspiracao (720p)",
+      "xmltvId": "5fa991b1f09e020007e78626",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Filmes Nacionais (720p)",
+      "xmltvId": "5f5a545d0dbf7f0007c09408",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Historia (720p)",
+      "xmltvId": "5f1ef1a8cec6be00072a7ac9",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Investigacao (720p)",
+      "xmltvId": "5f32cf37c9ff2b00082adbc8",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV KFOOD (720p)",
+      "xmltvId": "633ee9ba83c08f00076b60a6",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Kids (720p)",
+      "xmltvId": "5f1214a637c6fd00079c652f",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Kids Club (720p)",
+      "xmltvId": "66c8cae7fed35b0008580ec0",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Misterios (720p)",
+      "xmltvId": "5fac52f142044f00078e2a51",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Natureza (720p)",
+      "xmltvId": "5f1213ba0ecebc00070e170f",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Policial (720p)",
+      "xmltvId": "678fdf9e3de7c8cf948e8824",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Series Criminais (720p)",
+      "xmltvId": "6474ab5cdc7a760008745008",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Shows por Stingray (720p)",
+      "xmltvId": "604b91e0692f770007d9f33f",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Turbo (720p)",
+      "xmltvId": "6014761dfb91870008ea6463",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pluto TV Viagens (720p)",
+      "xmltvId": "5f32d432d612e50007e56133",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Pronto-socorro: Historias De Emergencia (720p)",
+      "xmltvId": "61bb72a7bf8c520007a8fd27",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Smithsonian Channel Pluto TV (720p)",
+      "xmltvId": "6298bd10d88ef000073f16b7",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "South Park: Colecao Cartman (720p)",
+      "xmltvId": "65df71008b24c80008f04281",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "South Park: Colecao Kenny (720p)",
+      "xmltvId": "65df704366eec8000898e32f",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "South Park: Colecao Kyle (720p)",
+      "xmltvId": "65df713dec9fda0008b7a81d",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "South Park: Colecao Stan (720p)",
+      "xmltvId": "65df70b0f7f0af0008c3b316",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Star Trek (720p)",
+      "xmltvId": "5f99ac4fded33000078f29ab",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "Tastemade Brasil (720p)",
+      "xmltvId": "5fd1419a3b4f4b000773ba85",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "The Pet Collective Brazil (720p)",
+      "xmltvId": "5f515ebac01c0f00080e8439",
+      "sourceUrl": "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz"
+    },
+    {
+      "name": "CNN Brasil (1080p)",
+      "xmltvId": "CNN BRASIL",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "Canal UOL (1080p)",
+      "xmltvId": "CANAL UOL",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "Canal Educação (720p)",
+      "xmltvId": "Canal Educacao",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "Canal Gov (720p)",
+      "xmltvId": "Canal GOV HD",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "Fonte TV (720p)",
+      "xmltvId": "FONTE TV",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "Play TV (1080p)",
+      "xmltvId": "PLAY TV",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "Rede Gospel (1080p)",
+      "xmltvId": "REDE GOSPEL",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "TV Camara (1080p)",
+      "xmltvId": "TV Camara",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "TV Pai Eterno (1080p)",
+      "xmltvId": "TV Pai Eterno HD",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    },
+    {
+      "name": "Times Brasil (720p)",
+      "xmltvId": "TIMES | Exclusivo CNBC",
+      "sourceUrl": "https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+    }
+  ],
+  "optionalRegionalGuide": {
+    "name": "Globo - TV Bahia",
+    "url": "https://redeglobo.globo.com/redebahia/programacao/",
+    "xmltvId": "TVBahia.br",
+    "requiresBrazilTvAdapter": true,
+    "includedInPublicPlaylists": false
+  },
+  "notes": [
+    "Les 72 associations de la liste publique sont distinctes des 73 guides de la configuration personnelle : TV Bahia est exclue de la playlist publique.",
+    "Les données Pluto couvrent une période glissante courte et doivent être actualisées régulièrement. Les autres sources ne garantissent pas des programmes pour toutes les chaînes ni tous les jours.",
+    "Les guides nationaux SBT, Record et Band peuvent différer pendant les émissions locales. Le guide régional TV Bahia utilise uniquement sa programmation officielle."
+  ]
+}

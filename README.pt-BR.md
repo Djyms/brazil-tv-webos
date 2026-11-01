@@ -33,6 +33,32 @@ Fontes da seleção e exclusões: [sources.json](sources.json).
 
 ## Aplicativo
 
+### Atualização Brazil TV 2 — guia e recuperação
+
+As playlists agora declaram quatro fontes XMLTV e os identificadores verificados.
+Em 1º de novembro de 2026, a cobertura validada era de **72 dos 167 canais** na
+lista Brazil TV e **69 dos 164** na lista padrão. Veja [epg-sources.json](epg-sources.json).
+Importe ou atualize a playlist e use Configurações → Gerenciamento de dados →
+Atualizar todos os dados. A TV de teste atualiza o guia a cada hora; horários são
+convertidos para o fuso da TV, sem deslocamento manual adicional na França.
+A cobertura e o período disponível dependem das fontes. Canais sem dados confiáveis
+continuam sem informação; grades nacionais podem diferir das janelas locais.
+
+A revisão corrige a recuperação ao vivo que encerrava as tentativas cedo demais,
+os falsos alertas de saúde em fontes de metadados e a verificação de segmentos HLS
+antigos já removidos. Formatos realmente incompatíveis continuam sendo recusados.
+O teste de Globo em 1080 com som durou mais de sete minutos sem congelamento ou
+erro de rede observado; a causa do congelamento inicial ainda não foi confirmada.
+
+O aplicativo também pode converter a programação regional oficial da TV Bahia:
+`https://redeglobo.globo.com/redebahia/programacao/`, identificador `TVBahia.br`.
+Isso exige uma fonte pessoal de vídeo válida e autorizada. Nenhum link de vídeo
+Globo é distribuído. Os **73 guias e 4.046 programas** da TV pessoal incluem esse
+canal extra; a lista pública continua com **72 guias** e 167 canais.
+
+Baixe a [segunda pré-versão](https://github.com/Djyms/brazil-tv-webos/releases/tag/v1.17.0-brazil.2).
+Os testes foram realizados **na França, em uma LG OLED CX com webOS 5.6.2**.
+
 Baixe o arquivo `.ipk` em **Releases** e instale pelo webOS Dev Manager ou pelas
 ferramentas de desenvolvimento webOS. Identificador: `com.djyms.braziltv`.
 Ele pode coexistir com `com.lennylxx.iptv`; não migra favoritos, histórico ou

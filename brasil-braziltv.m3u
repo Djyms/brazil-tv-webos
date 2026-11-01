@@ -1,7 +1,7 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="SBTNacional.br" tvg-logo="https://i.imgur.com/tc1ALuu.png" group-title="Généralistes",SBT (1080p)
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz,https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz,https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml"
+#EXTINF:-1 tvg-id="SBT.br" tvg-logo="https://i.imgur.com/tc1ALuu.png" group-title="Généralistes",SBT (1080p)
 https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
-#EXTINF:-1 tvg-id="Record.br" tvg-logo="https://i.imgur.com/sz9gTTr.png" group-title="Généralistes",RecordTV (720p)
+#EXTINF:-1 tvg-id="Record.TV.br" tvg-logo="https://i.imgur.com/sz9gTTr.png" group-title="Généralistes",RecordTV (720p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
 #EXTINF:-1 tvg-id="Band.br" tvg-logo="https://i.imgur.com/1r5T6Pw.png" group-title="Généralistes",Band (720p)
@@ -11,27 +11,27 @@ https://beyond.spalla.io/cache/config/019a797e-eeb8-7eda-9518-132403ccb160
 #EXTINF:-1 tvg-id="RedeTVMais.br" tvg-logo="https://i.ibb.co/F0Tm2WP/2103f4c07b851d64b4c96955765a9a95.png" group-title="Généralistes",Rede TV! Mais (720p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
-#EXTINF:-1 tvg-id="TVGazeta.br" tvg-logo="https://i.imgur.com/0sksWse.png" group-title="Généralistes",TV Gazeta (1080p)
+#EXTINF:-1 tvg-id="TV.Gazeta.br" tvg-logo="https://i.imgur.com/0sksWse.png" group-title="Généralistes",TV Gazeta (1080p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://www.dailymotion.com/player/metadata/video/x9xwtpy
-#EXTINF:-1 tvg-id="TVBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png" group-title="Culture et documentaires",TV Brasil (720p)
+#EXTINF:-1 tvg-id="TV.Brasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png" group-title="Culture et documentaires",TV Brasil (720p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://tvbrasil-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 tvg-id="TVCultura.br" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="Culture et documentaires",TV Cultura (1080p)
+#EXTINF:-1 tvg-id="TV.Cultura.br" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="Culture et documentaires",TV Cultura (1080p)
 #KODIPROP:iptv.hlsjs=true
 https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8
-#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/960px-CNN_Brasil.svg.png" group-title="Actualités",CNN Brasil (1080p)
+#EXTINF:-1 tvg-id="CNN BRASIL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/960px-CNN_Brasil.svg.png" group-title="Actualités",CNN Brasil (1080p)
 https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1920x1080/playlist.m3u8
-#EXTINF:-1 tvg-id="RecordNews.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Record_News_logo_2023.svg" group-title="Actualités",Record News (720p)
+#EXTINF:-1 tvg-id="São.Paulo/SP.Record.News.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Record_News_logo_2023.svg" group-title="Actualités",Record News (720p)
 https://rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
-#EXTINF:-1 tvg-id="CanalUOL.br" tvg-logo="https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg" group-title="Généralistes",Canal UOL (1080p)
+#EXTINF:-1 tvg-id="CANAL UOL" tvg-logo="https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg" group-title="Généralistes",Canal UOL (1080p)
 https://video24.mais.uol.com.br/live/6146-3.m3u8
 #EXTINF:-1 tvg-id="geFast.br" tvg-logo="" group-title="Sport",ge Fast (1080p)
 #KODIPROP:iptv.hlsjs=true
 https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVAparecida.br" tvg-logo="https://i.imgur.com/kxrja0X.png" group-title="Religion",TV Aparecida (1080p)
+#EXTINF:-1 tvg-id="TV.Aparecida.(aberta).br" tvg-logo="https://i.imgur.com/kxrja0X.png" group-title="Religion",TV Aparecida (1080p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="Sport",Red Bull TV BR (1080p)
@@ -44,7 +44,7 @@ https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
 #EXTINF:-1 tvg-id="RedeMinas.br" tvg-logo="https://i.imgur.com/MtQWAHv.png" group-title="Culture et documentaires",Rede Minas (720p)
 https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/chunklist_b2179072.m3u8
-#EXTINF:-1 tvg-id="RedeBrasil.br" tvg-logo="https://i.imgur.com/TXJKwzZ.png" group-title="Généralistes",Rede Brasil (720p)
+#EXTINF:-1 tvg-id="Rede.Brasil.HD.br" tvg-logo="https://i.imgur.com/TXJKwzZ.png" group-title="Généralistes",Rede Brasil (720p)
 https://redebrasil.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AmazonSat.br" tvg-logo="https://i.imgur.com/7rjCS5i.png" group-title="Généralistes",Amazon Sat (1080p)
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
@@ -60,7 +60,7 @@ https://cpbr.appflux.com.br:2000/hls/1001noites/1001noites.m3u8
 #EXTINF:-1 tvg-id="AdessoTV.br" tvg-logo="https://i.imgur.com/KgetM8j.png" group-title="Généralistes",Adesso TV (720p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
-#EXTINF:-1 tvg-id="AdrenalinaPuraTV.us" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Films",Adrenalina Pura TV Brazil (720p)
+#EXTINF:-1 tvg-id="61b790b985706b00072cb797" tvg-logo="https://i.imgur.com/Pvid2iH.png" group-title="Films",Adrenalina Pura TV Brazil (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br" tvg-logo="https://i.imgur.com/5XyopHf.png" group-title="Culture et documentaires",AgroCanal (720p)
@@ -77,25 +77,25 @@ https://video01.logicahost.com.br/canalaugetv/canalaugetv/playlist.m3u8
 https://awtv.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BemMaisTV.br" tvg-logo="https://bemmaistv.com.br/wp-content/uploads/2025/08/0LASAmOtt4-150x150.jpg" group-title="Culture et documentaires",Bem Mais TV (1080p)
 https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
-#EXTINF:-1 tvg-id="BETPlutoTV.us" tvg-logo="https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png" group-title="Divertissement",BET Pluto TV BR (720p)
+#EXTINF:-1 tvg-id="5ff768b6a4c8b80008498610" tvg-logo="https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png" group-title="Divertissement",BET Pluto TV BR (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5ff768b6a4c8b80008498610.m3u8
-#EXTINF:-1 tvg-id="BMCNews.br" tvg-logo="https://i.imgur.com/pOUY2Uz.png" group-title="Actualités",BM&C News (720p)
+#EXTINF:-1 tvg-id="666c9c60a7efd40008f552f0" tvg-logo="https://i.imgur.com/pOUY2Uz.png" group-title="Actualités",BM&C News (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
-#EXTINF:-1 tvg-id="BobEsponjaCalcaQuadrada.us" tvg-logo="https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png" group-title="Enfants et animation",Bob Esponja Calca Quadrada (720p)
+#EXTINF:-1 tvg-id="62545c0b002f4b0007688b61" tvg-logo="https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png" group-title="Enfants et animation",Bob Esponja Calca Quadrada (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8
 #EXTINF:-1 tvg-id="Canal38.br" tvg-logo="https://i.imgur.com/co7TCWC.png" group-title="Actualités",Canal 38 (1080p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalEducacao.br" tvg-logo="https://i.imgur.com/OOB7nrS.png" group-title="Culture et documentaires",Canal Educação (720p)
+#EXTINF:-1 tvg-id="Canal Educacao" tvg-logo="https://i.imgur.com/OOB7nrS.png" group-title="Culture et documentaires",Canal Educação (720p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://canaleducacao-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="CanalFDR.br" tvg-logo="https://i.imgur.com/7SE4CkE.png" group-title="Culture et documentaires",Canal FDR (1080p)
 https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
-#EXTINF:-1 tvg-id="CanalGov.br" tvg-logo="https://i.imgur.com/rHPY0Yv.png" group-title="Institutions",Canal Gov (720p)
+#EXTINF:-1 tvg-id="Canal GOV HD" tvg-logo="https://i.imgur.com/rHPY0Yv.png" group-title="Institutions",Canal Gov (720p)
 #KODIPROP:iptv.hlsjs=true
 https://canalgov-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="CanalSete.br" tvg-logo="https://i.imgur.com/0cq0BPp.png" group-title="Généralistes",Canal Sete (1080p)
@@ -106,15 +106,15 @@ https://srv5.zcast.com.br/canalstart/canalstart/playlist.m3u8
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
-#EXTINF:-1 tvg-id="CineTerror.us" tvg-logo="https://images.pluto.tv/channels/5f12111c9e6c2c00078ef3bb/colorLogoPNG.png" group-title="Films",Cine Terror BR (720p)
+#EXTINF:-1 tvg-id="5f12111c9e6c2c00078ef3bb" tvg-logo="https://images.pluto.tv/channels/5f12111c9e6c2c00078ef3bb/colorLogoPNG.png" group-title="Films",Cine Terror BR (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f12111c9e6c2c00078ef3bb.m3u8
 #EXTINF:-1 tvg-id="COMBrasil.br" tvg-logo="https://i.imgur.com/c8ztQnF.png" group-title="Généralistes",COM Brasil (1080p)
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralPlutoTV.us" tvg-logo="https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png" group-title="Humour",Comedy Central Pluto TV BR (720p)
+#EXTINF:-1 tvg-id="5f357e91b18f0b00073583d2" tvg-logo="https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png" group-title="Humour",Comedy Central Pluto TV BR (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralSouthPark.us" tvg-logo="https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png" group-title="Humour",Comedy Central South Park (720p)
+#EXTINF:-1 tvg-id="609ae66b359b270007869ff1" tvg-logo="https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png" group-title="Humour",Comedy Central South Park (720p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://jmp2.uk/plu-609ae66b359b270007869ff1.m3u8
@@ -128,17 +128,17 @@ https://5a57bda70564a.streamlock.net/conexaotv/conexaotv.sdp/playlist.m3u8
 https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
 #EXTINF:-1 tvg-id="DespertarTV.br" tvg-logo="https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png" group-title="Religion",Despertar TV (1080p)
 https://br.conectmy.com.br/DespertarTV/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="DetetivesMedicos.us" tvg-logo="https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png" group-title="Culture et documentaires",Detetives Medicos (720p)
+#EXTINF:-1 tvg-id="638df93ae2f2a3000737c168" tvg-logo="https://images.pluto.tv/channels/638df93ae2f2a3000737c168/colorLogoPNG.png" group-title="Culture et documentaires",Detetives Medicos (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
 #EXTINF:-1 tvg-id="EUTV.br" tvg-logo="https://i.imgur.com/8PxpamC.png" group-title="Généralistes",EUTV (720p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
-#EXTINF:-1 tvg-id="FonteTV.br" tvg-logo="https://i.imgur.com/7q2BmNc.png" group-title="Religion",Fonte TV (720p)
+#EXTINF:-1 tvg-id="FONTE TV" tvg-logo="https://i.imgur.com/7q2BmNc.png" group-title="Religion",Fonte TV (720p)
 https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
 #EXTINF:-1 tvg-id="Geekdot.br" tvg-logo="https://i.imgur.com/jML1u4O.png" group-title="Enfants et animation",Geekdot (720p)
 https://stream.ichibansys.com:3764/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="iCarly.us" tvg-logo="https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png" group-title="Enfants et animation",iCarly (720p)
+#EXTINF:-1 tvg-id="620ff46e0a576e0007dc2f89" tvg-logo="https://images.pluto.tv/channels/620ff46e0a576e0007dc2f89/colorLogoPNG.png" group-title="Enfants et animation",iCarly (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8
 #EXTINF:-1 tvg-id="IMPDTVWorldwide.br" tvg-logo="" group-title="Religion",IMPD TV Worldwide (1080p)
@@ -157,137 +157,137 @@ https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
 https://video08.logicahost.com.br/lidertvssp/lidertvssp/playlist.m3u8
 #EXTINF:-1 tvg-id="Loading.br" tvg-logo="https://i.imgur.com/R0aflu1.png" group-title="Divertissement",Loading (720p)
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
-#EXTINF:-1 tvg-id="MTVAreyoutheOne.us" tvg-logo="https://images.pluto.tv/channels/5f6108d8cc331900075e98e4/colorLogoPNG.png" group-title="Séries",MTV Are you the One? (720p)
+#EXTINF:-1 tvg-id="5f6108d8cc331900075e98e4" tvg-logo="https://images.pluto.tv/channels/5f6108d8cc331900075e98e4/colorLogoPNG.png" group-title="Séries",MTV Are you the One? (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f6108d8cc331900075e98e4.m3u8
-#EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Musique",MTV Biggest Pop BR (720p)
+#EXTINF:-1 tvg-id="6047fbdbbb776a0007e7f2ff" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="Musique",MTV Biggest Pop BR (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
-#EXTINF:-1 tvg-id="MTVComoEx.us" tvg-logo="https://images.pluto.tv/channels/61a528267e1b8b0007357920/colorLogoPNG.png" group-title="Séries",MTV Com o Ex (720p)
+#EXTINF:-1 tvg-id="61a528267e1b8b0007357920" tvg-logo="https://images.pluto.tv/channels/61a528267e1b8b0007357920/colorLogoPNG.png" group-title="Séries",MTV Com o Ex (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-61a528267e1b8b0007357920.m3u8
-#EXTINF:-1 tvg-id="MTVDating.us" tvg-logo="https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png" group-title="Séries",MTV Dating (720p)
+#EXTINF:-1 tvg-id="6851bb3426beced4f2f67ee6" tvg-logo="https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png" group-title="Séries",MTV Dating (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6851bb3426beced4f2f67ee6.m3u8
-#EXTINF:-1 tvg-id="MTVJovenseMaes.us" tvg-logo="https://images.pluto.tv/channels/620fdc7d8a36fc000710e3ba/colorLogoPNG.png" group-title="Divertissement",MTV Jovens e Maes (720p)
+#EXTINF:-1 tvg-id="620fdc7d8a36fc000710e3ba" tvg-logo="https://images.pluto.tv/channels/620fdc7d8a36fc000710e3ba/colorLogoPNG.png" group-title="Divertissement",MTV Jovens e Maes (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-620fdc7d8a36fc000710e3ba.m3u8
-#EXTINF:-1 tvg-id="MTVPlutoTV.us" tvg-logo="https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png" group-title="Divertissement",MTV Pluto TV BR (720p)
+#EXTINF:-1 tvg-id="5f1212fb81e85c00077ae9ef" tvg-logo="https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png" group-title="Divertissement",MTV Pluto TV BR (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8
-#EXTINF:-1 tvg-id="MTVReality.us" tvg-logo="https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png" group-title="Divertissement",MTV Reality (720p)
+#EXTINF:-1 tvg-id="6851bdfc9ac48fde5e07f5ae" tvg-logo="https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png" group-title="Divertissement",MTV Reality (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6851bdfc9ac48fde5e07f5ae.m3u8
-#EXTINF:-1 tvg-id="MTVShore.us" tvg-logo="https://images.pluto.tv/channels/625463563b8ddc0007134aeb/colorLogoPNG.png" group-title="Divertissement",MTV Shore (720p)
+#EXTINF:-1 tvg-id="625463563b8ddc0007134aeb" tvg-logo="https://images.pluto.tv/channels/625463563b8ddc0007134aeb/colorLogoPNG.png" group-title="Divertissement",MTV Shore (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-625463563b8ddc0007134aeb.m3u8
-#EXTINF:-1 tvg-id="Naruto.us" tvg-logo="https://i.imgur.com/M8X3Kvc.png" group-title="Enfants et animation",Naruto Brazil (720p)
+#EXTINF:-1 tvg-id="5f6df5a173d7340007c559f7" tvg-logo="https://i.imgur.com/M8X3Kvc.png" group-title="Enfants et animation",Naruto Brazil (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8
-#EXTINF:-1 tvg-id="NCIS.us" tvg-logo="https://images.pluto.tv/channels/63eb9fdda995710008991c54/colorLogoPNG.png" group-title="Séries",NCIS (720p)
+#EXTINF:-1 tvg-id="63eb9fdda995710008991c54" tvg-logo="https://images.pluto.tv/channels/63eb9fdda995710008991c54/colorLogoPNG.png" group-title="Séries",NCIS (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-63eb9fdda995710008991c54.m3u8
-#EXTINF:-1 tvg-id="NickelodeonClassico.us" tvg-logo="https://images.pluto.tv/channels/5f12151794c1800007a8ae63/colorLogoPNG_1750157164414.png" group-title="Enfants et animation",Nickelodeon Classico (720p)
+#EXTINF:-1 tvg-id="6824ce10c5d53e1351ceb8d1" tvg-logo="https://images.pluto.tv/channels/5f12151794c1800007a8ae63/colorLogoPNG_1750157164414.png" group-title="Enfants et animation",Nickelodeon Classico (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
-#EXTINF:-1 tvg-id="NickelodeonTeen.us" tvg-logo="https://images.pluto.tv/channels/60f5fabf0721880007cd50e3/colorLogoPNG_1767888207915.png" group-title="Enfants et animation",Nickelodeon Teen (720p)
+#EXTINF:-1 tvg-id="60f5fabf0721880007cd50e3" tvg-logo="https://images.pluto.tv/channels/60f5fabf0721880007cd50e3/colorLogoPNG_1767888207915.png" group-title="Enfants et animation",Nickelodeon Teen (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-60f5fabf0721880007cd50e3.m3u8
 #EXTINF:-1 tvg-id="NovaEraTV.br" tvg-logo="https://i.imgur.com/IK3F9Uq.png" group-title="Généralistes",Nova Era TV (1080p)
 http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 #EXTINF:-1 tvg-id="NTV.br" tvg-logo="https://i.imgur.com/n79nkVC.png" group-title="Divertissement",NTV (720p)
 https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
-#EXTINF:-1 tvg-id="OEncantadordeCaes.us" tvg-logo="https://i.imgur.com/sQn6vvh.png" group-title="Culture et documentaires",O Encantador de Caes (720p)
+#EXTINF:-1 tvg-id="61099df8cee03b00074b2ecf" tvg-logo="https://i.imgur.com/sQn6vvh.png" group-title="Culture et documentaires",O Encantador de Caes (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-61099df8cee03b00074b2ecf.m3u8
-#EXTINF:-1 tvg-id="OggyeasBaratasTontas.us" tvg-logo="https://images.pluto.tv/channels/63221bafdc6e110007b50270/colorLogoPNG.png" group-title="Enfants et animation",Oggy e as Baratas Tontas (720p)
+#EXTINF:-1 tvg-id="63221bafdc6e110007b50270" tvg-logo="https://images.pluto.tv/channels/63221bafdc6e110007b50270/colorLogoPNG.png" group-title="Enfants et animation",Oggy e as Baratas Tontas (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-63221bafdc6e110007b50270.m3u8
-#EXTINF:-1 tvg-id="OnePiece.us" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Enfants et animation",One Piece BR (720p)
+#EXTINF:-1 tvg-id="624b1c8d4321e200073ee421" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Enfants et animation",One Piece BR (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8
 #EXTINF:-1 tvg-id="PetloversTV.br" tvg-logo="https://petloverstv.com.br/storage/357/config/yqP4nOugWRxRFCmgLqXF4gRKyM9ybsAOfHgUaqPt.png" group-title="Cuisine et vie pratique",Petlovers TV (720p)
 https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8
-#EXTINF:-1 tvg-id="PlayTV.br" tvg-logo="https://i.imgur.com/Ikrj3lk.png" group-title="Divertissement",Play TV (1080p)
+#EXTINF:-1 tvg-id="PLAY TV" tvg-logo="https://i.imgur.com/Ikrj3lk.png" group-title="Divertissement",Play TV (1080p)
 https://isaocorp.cloudecast.com/playtv/index.m3u8
 #EXTINF:-1 tvg-id="PlenaTV.br" tvg-logo="https://i.imgur.com/lH4RT7b.png" group-title="Actualités",Plena TV (1080p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8
 #EXTINF:-1 tvg-id="PlenitudeTV.br" tvg-logo="" group-title="Religion",Plenitude TV (1080p)
 https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAliens.us" tvg-logo="https://images.pluto.tv/channels/6806d65e84f24b70109485fa/colorLogoPNG_1746817107468.png" group-title="Séries",Pluto TV Aliens (720p)
+#EXTINF:-1 tvg-id="6806d65e84f24b70109485fa" tvg-logo="https://images.pluto.tv/channels/6806d65e84f24b70109485fa/colorLogoPNG_1746817107468.png" group-title="Séries",Pluto TV Aliens (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6806d65e84f24b70109485fa.m3u8
-#EXTINF:-1 tvg-id="PlutoTVBangBang.us" tvg-logo="https://images.pluto.tv/channels/663b9dc7cb3ea10008f1a0ce/colorLogoPNG.png" group-title="Films",Pluto TV Bang Bang (720p)
+#EXTINF:-1 tvg-id="663b9dc7cb3ea10008f1a0ce" tvg-logo="https://images.pluto.tv/channels/663b9dc7cb3ea10008f1a0ce/colorLogoPNG.png" group-title="Films",Pluto TV Bang Bang (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-663b9dc7cb3ea10008f1a0ce.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineClassicos.us" tvg-logo="https://images.pluto.tv/channels/5fa1612a669ba0000702017b/colorLogoPNG_1733440556804.png" group-title="Films",Pluto TV Cine Classicos (720p)
+#EXTINF:-1 tvg-id="5fa1612a669ba0000702017b" tvg-logo="https://images.pluto.tv/channels/5fa1612a669ba0000702017b/colorLogoPNG_1733440556804.png" group-title="Films",Pluto TV Cine Classicos (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5fa1612a669ba0000702017b.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineDrama.us" tvg-logo="https://images.pluto.tv/channels/5f1210d14ae1f80007bafb1d/colorLogoPNG.png" group-title="Films",Pluto TV Cine Drama (720p)
+#EXTINF:-1 tvg-id="5f1210d14ae1f80007bafb1d" tvg-logo="https://images.pluto.tv/channels/5f1210d14ae1f80007bafb1d/colorLogoPNG.png" group-title="Films",Pluto TV Cine Drama (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f1210d14ae1f80007bafb1d.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineFamilia.us" tvg-logo="https://images.pluto.tv/channels/5f171f032cd22e0007f17f3d/colorLogoPNG_1732045254120.png" group-title="Films",Pluto TV Cine Familia (720p)
+#EXTINF:-1 tvg-id="5f171f032cd22e0007f17f3d" tvg-logo="https://images.pluto.tv/channels/5f171f032cd22e0007f17f3d/colorLogoPNG_1732045254120.png" group-title="Films",Pluto TV Cine Familia (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f171f032cd22e0007f17f3d.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineInspiracao.us" tvg-logo="https://images.pluto.tv/channels/5fa991b1f09e020007e78626/colorLogoPNG_1748874366972.png" group-title="Films",Pluto TV Cine Inspiracao (720p)
+#EXTINF:-1 tvg-id="5fa991b1f09e020007e78626" tvg-logo="https://images.pluto.tv/channels/5fa991b1f09e020007e78626/colorLogoPNG_1748874366972.png" group-title="Films",Pluto TV Cine Inspiracao (720p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://jmp2.uk/plu-5fa991b1f09e020007e78626.m3u8
-#EXTINF:-1 tvg-id="PlutoTVFilmesNacionais.us" tvg-logo="https://images.pluto.tv/channels/5f5a545d0dbf7f0007c09408/colorLogoPNG_1732044719987.png" group-title="Films",Pluto TV Filmes Nacionais (720p)
+#EXTINF:-1 tvg-id="5f5a545d0dbf7f0007c09408" tvg-logo="https://images.pluto.tv/channels/5f5a545d0dbf7f0007c09408/colorLogoPNG_1732044719987.png" group-title="Films",Pluto TV Filmes Nacionais (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f5a545d0dbf7f0007c09408.m3u8
-#EXTINF:-1 tvg-id="PlutoTVHistoria.us" tvg-logo="https://images.pluto.tv/channels/5f1ef1a8cec6be00072a7ac9/colorLogoPNG_1754405659295.png" group-title="Culture et documentaires",Pluto TV Historia (720p)
+#EXTINF:-1 tvg-id="5f1ef1a8cec6be00072a7ac9" tvg-logo="https://images.pluto.tv/channels/5f1ef1a8cec6be00072a7ac9/colorLogoPNG_1754405659295.png" group-title="Culture et documentaires",Pluto TV Historia (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f1ef1a8cec6be00072a7ac9.m3u8
-#EXTINF:-1 tvg-id="PlutoTVInvestigacao.us" tvg-logo="https://i.imgur.com/JlQq0YJ.png" group-title="Culture et documentaires",Pluto TV Investigacao (720p)
+#EXTINF:-1 tvg-id="5f32cf37c9ff2b00082adbc8" tvg-logo="https://i.imgur.com/JlQq0YJ.png" group-title="Culture et documentaires",Pluto TV Investigacao (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
-#EXTINF:-1 tvg-id="PlutoTVKFOOD.us" tvg-logo="https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png" group-title="Cuisine et vie pratique",Pluto TV KFOOD (720p)
+#EXTINF:-1 tvg-id="633ee9ba83c08f00076b60a6" tvg-logo="https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png" group-title="Cuisine et vie pratique",Pluto TV KFOOD (720p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://jmp2.uk/plu-633ee9ba83c08f00076b60a6.m3u8
-#EXTINF:-1 tvg-id="PlutoTVKids.us" tvg-logo="https://images.pluto.tv/channels/5f1214a637c6fd00079c652f/colorLogoPNG.png" group-title="Enfants et animation",Pluto TV Kids (720p)
+#EXTINF:-1 tvg-id="5f1214a637c6fd00079c652f" tvg-logo="https://images.pluto.tv/channels/5f1214a637c6fd00079c652f/colorLogoPNG.png" group-title="Enfants et animation",Pluto TV Kids (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
-#EXTINF:-1 tvg-id="PlutoTVKidsClub.us" tvg-logo="https://images.pluto.tv/channels/66c8cae7fed35b0008580ec0/colorLogoPNG.png" group-title="Enfants et animation",Pluto TV Kids Club (720p)
+#EXTINF:-1 tvg-id="66c8cae7fed35b0008580ec0" tvg-logo="https://images.pluto.tv/channels/66c8cae7fed35b0008580ec0/colorLogoPNG.png" group-title="Enfants et animation",Pluto TV Kids Club (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
-#EXTINF:-1 tvg-id="PlutoTVMisterios.us" tvg-logo="https://images.pluto.tv/channels/5fac52f142044f00078e2a51/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Misterios (720p)
+#EXTINF:-1 tvg-id="5fac52f142044f00078e2a51" tvg-logo="https://images.pluto.tv/channels/5fac52f142044f00078e2a51/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Misterios (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5fac52f142044f00078e2a51.m3u8
-#EXTINF:-1 tvg-id="PlutoTVNatureza.us" tvg-logo="https://images.pluto.tv/channels/5f1213ba0ecebc00070e170f/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Natureza (720p)
+#EXTINF:-1 tvg-id="5f1213ba0ecebc00070e170f" tvg-logo="https://images.pluto.tv/channels/5f1213ba0ecebc00070e170f/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Natureza (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f1213ba0ecebc00070e170f.m3u8
-#EXTINF:-1 tvg-id="PlutoTVPolicial.us" tvg-logo="https://images.pluto.tv/channels/678fdf9e3de7c8cf948e8824/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Policial (720p)
+#EXTINF:-1 tvg-id="678fdf9e3de7c8cf948e8824" tvg-logo="https://images.pluto.tv/channels/678fdf9e3de7c8cf948e8824/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Policial (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-678fdf9e3de7c8cf948e8824.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSeriesCriminais.us" tvg-logo="https://images.pluto.tv/channels/6474ab5cdc7a760008745008/colorLogoPNG.png" group-title="Séries",Pluto TV Series Criminais (720p)
+#EXTINF:-1 tvg-id="6474ab5cdc7a760008745008" tvg-logo="https://images.pluto.tv/channels/6474ab5cdc7a760008745008/colorLogoPNG.png" group-title="Séries",Pluto TV Series Criminais (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6474ab5cdc7a760008745008.m3u8
-#EXTINF:-1 tvg-id="PlutoTVShowsporStingray.us" tvg-logo="https://images.pluto.tv/channels/604b91e0692f770007d9f33f/colorLogoPNG.png" group-title="Musique",Pluto TV Shows por Stingray (720p)
+#EXTINF:-1 tvg-id="604b91e0692f770007d9f33f" tvg-logo="https://images.pluto.tv/channels/604b91e0692f770007d9f33f/colorLogoPNG.png" group-title="Musique",Pluto TV Shows por Stingray (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-604b91e0692f770007d9f33f.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTurbo.us" tvg-logo="https://images.pluto.tv/channels/6014761dfb91870008ea6463/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Turbo (720p)
+#EXTINF:-1 tvg-id="6014761dfb91870008ea6463" tvg-logo="https://images.pluto.tv/channels/6014761dfb91870008ea6463/colorLogoPNG.png" group-title="Culture et documentaires",Pluto TV Turbo (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8
-#EXTINF:-1 tvg-id="PlutoTVViagens.us" tvg-logo="https://images.pluto.tv/channels/5f32d432d612e50007e56133/colorLogoPNG_1769016717502.png" group-title="Cuisine et vie pratique",Pluto TV Viagens (720p)
+#EXTINF:-1 tvg-id="5f32d432d612e50007e56133" tvg-logo="https://images.pluto.tv/channels/5f32d432d612e50007e56133/colorLogoPNG_1769016717502.png" group-title="Cuisine et vie pratique",Pluto TV Viagens (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
-#EXTINF:-1 tvg-id="ProntosocorroHistoriasDeEmergencia.us" tvg-logo="https://i.imgur.com/0PkyJ3U.png" group-title="Culture et documentaires",Pronto-socorro: Historias De Emergencia (720p)
+#EXTINF:-1 tvg-id="61bb72a7bf8c520007a8fd27" tvg-logo="https://i.imgur.com/0PkyJ3U.png" group-title="Culture et documentaires",Pronto-socorro: Historias De Emergencia (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-61bb72a7bf8c520007a8fd27.m3u8
 #EXTINF:-1 tvg-id="RBATV.br" tvg-logo="https://i.imgur.com/ZWFxlU1.png" group-title="Généralistes",RBATV (720p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
-#EXTINF:-1 tvg-id="RedeGospel.br" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religion",Rede Gospel (1080p)
+#EXTINF:-1 tvg-id="REDE GOSPEL" tvg-logo="https://i.imgur.com/mttSwgO.png" group-title="Religion",Rede Gospel (1080p)
 #KODIPROP:iptv.hlsjs=true
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RedeMeioNorte.br" tvg-logo="https://i.imgur.com/KVdTi0M.png" group-title="Généralistes",Rede Meio Norte (720p)
 https://maystreaming.cloudecast.com/redemeio/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="RedeNGT.br" tvg-logo="https://i.imgur.com/ZFN1R4B.png" group-title="Divertissement",Rede NGT (1080p)
 https://isaocorp.cloudecast.com/ngt/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="RedeVida.br" tvg-logo="https://i.imgur.com/mP1qfp2.png" group-title="Religion",Rede Vida (1080p)
+#EXTINF:-1 tvg-id="Rede.Vida.br" tvg-logo="https://i.imgur.com/mP1qfp2.png" group-title="Religion",Rede Vida (1080p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://www.dailymotion.com/player/metadata/video/xb1dec2
@@ -306,39 +306,39 @@ https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
 https://video10.logicahost.com.br/serieclassic/serieclassic/playlist.m3u8
 #EXTINF:-1 tvg-id="SICTV.br" tvg-logo="https://i.imgur.com/mHxQyB2.png" group-title="Généralistes",SIC TV (1080p)
 https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
-#EXTINF:-1 tvg-id="SmithsonianChannelPlutoTV.us" tvg-logo="https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png" group-title="Culture et documentaires",Smithsonian Channel Pluto TV (720p)
+#EXTINF:-1 tvg-id="6298bd10d88ef000073f16b7" tvg-logo="https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png" group-title="Culture et documentaires",Smithsonian Channel Pluto TV (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
-#EXTINF:-1 tvg-id="SouthParkColecaoCartman.us" tvg-logo="https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png" group-title="Humour",South Park: Colecao Cartman (720p)
+#EXTINF:-1 tvg-id="65df71008b24c80008f04281" tvg-logo="https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png" group-title="Humour",South Park: Colecao Cartman (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-65df71008b24c80008f04281.m3u8
-#EXTINF:-1 tvg-id="SouthParkColecaoKenny.us" tvg-logo="https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png" group-title="Humour",South Park: Colecao Kenny (720p)
+#EXTINF:-1 tvg-id="65df704366eec8000898e32f" tvg-logo="https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png" group-title="Humour",South Park: Colecao Kenny (720p)
 #KODIPROP:iptv.hlsjs=true
 #KODIPROP:iptv.hd-min=720
 https://jmp2.uk/plu-65df704366eec8000898e32f.m3u8
-#EXTINF:-1 tvg-id="SouthParkColecaoKyle.us" tvg-logo="https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png" group-title="Humour",South Park: Colecao Kyle (720p)
+#EXTINF:-1 tvg-id="65df713dec9fda0008b7a81d" tvg-logo="https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png" group-title="Humour",South Park: Colecao Kyle (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-65df713dec9fda0008b7a81d.m3u8
-#EXTINF:-1 tvg-id="SouthParkColecaoStan.us" tvg-logo="https://images.pluto.tv/channels/65df70b0f7f0af0008c3b316/colorLogoPNG.png" group-title="Humour",South Park: Colecao Stan (720p)
+#EXTINF:-1 tvg-id="65df70b0f7f0af0008c3b316" tvg-logo="https://images.pluto.tv/channels/65df70b0f7f0af0008c3b316/colorLogoPNG.png" group-title="Humour",South Park: Colecao Stan (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-65df70b0f7f0af0008c3b316.m3u8
-#EXTINF:-1 tvg-id="StarTrek.us" tvg-logo="https://images.pluto.tv/channels/5efbd39f8c4ce900075d7698/colorLogoPNG.png" group-title="Séries",Star Trek (720p)
+#EXTINF:-1 tvg-id="5f99ac4fded33000078f29ab" tvg-logo="https://images.pluto.tv/channels/5efbd39f8c4ce900075d7698/colorLogoPNG.png" group-title="Séries",Star Trek (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f99ac4fded33000078f29ab.m3u8
 #EXTINF:-1 tvg-id="STZTV.br" tvg-logo="https://i.imgur.com/SeF2I7q.png" group-title="Culture et documentaires",STZ TV (1080p)
 #KODIPROP:iptv.hlsjs=true
 https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
-#EXTINF:-1 tvg-id="TastemadeBrasil.us" tvg-logo="https://i.imgur.com/FPy4zF4.png" group-title="Cuisine et vie pratique",Tastemade Brasil (720p)
+#EXTINF:-1 tvg-id="5fd1419a3b4f4b000773ba85" tvg-logo="https://i.imgur.com/FPy4zF4.png" group-title="Cuisine et vie pratique",Tastemade Brasil (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5fd1419a3b4f4b000773ba85.m3u8
 #EXTINF:-1 tvg-id="TCM10HD.br" tvg-logo="https://i.imgur.com/aMuMVvB.png" group-title="Actualités",TCM 10 (720p)
 https://live.tcm10.com.br/tcm10hd/stream.m3u8
-#EXTINF:-1 tvg-id="ThePetCollective.us" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Cuisine et vie pratique",The Pet Collective Brazil (720p)
+#EXTINF:-1 tvg-id="5f515ebac01c0f00080e8439" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Cuisine et vie pratique",The Pet Collective Brazil (720p)
 #KODIPROP:iptv.hlsjs=true
 https://jmp2.uk/plu-5f515ebac01c0f00080e8439.m3u8
 #EXTINF:-1 tvg-id="TikTokRadioBrasil.br" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/TikTok_Radio.svg" group-title="Musique",TikTok Radio Brasil (1080p)
 https://d1bl6tskrpq9ze.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_lgchannels-cdp-springserve/5d405300-b22f-473a-a2bd-ab0ec090c6a7/4.m3u8
-#EXTINF:-1 tvg-id="TimesBrasil.br" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Times_Brasil_CNBC_logo_2025.svg/960px-Times_Brasil_CNBC_logo_2025.svg.png" group-title="Actualités",Times Brasil (720p)
+#EXTINF:-1 tvg-id="TIMES | Exclusivo CNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Times_Brasil_CNBC_logo_2025.svg/960px-Times_Brasil_CNBC_logo_2025.svg.png" group-title="Actualités",Times Brasil (720p)
 https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd7491406bba86497a24390a25/manifest_abr/0d983e52-2555-4564-a9d0-bbe8472c1e6b/946cafd578f628eba5b742ec27dd1e98/0.m3u8
 #EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-logo="https://i.imgur.com/DFBocPu.png" group-title="Musique",Trace Brazuca (1080p)
 https://amg01131-tracetv-tracebrazuca-samsungbr-rfenz.amagi.tv/ts-eu-w1-n2/playlist/amg01131-tracetv-tracebrazuca-samsungbr/cb503417657a67909ad43c64f2c51eff8f5370955165816066af06c368951a5184a1f0c2bb4af2605fcb1cc368083c555f329e4d8d2901c5bcd5996b174481d112a9924af3ab646ba0ee79687bed294b73df3427a54073be5d747872e318a06b0a03ed73183eb31265688f49209ac548dc627cd5b0af236c3e190a8d4d655c71cd96ddd22c27a94685c0590ec06d12b9d75fab8c43e5d5c92ac203d335e32aa5747902e232b08690499a26eb3a433f4818c9d129c3990ff4b2f01806fbdf51776472c6dac5a2930e70c6377cb293eeaa77f003cbc61580723ea83af225e03e856faf7bc79b2eaacfe888a220822a3dec077ef06efcec1d2176659fe434cd12c68c/37/1920x1080_4143876/index.m3u8
@@ -353,7 +353,7 @@ https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
 https://porbrics.mediacdn.ru/cdn/brics/portuguese/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="TVBrusque.br" tvg-logo="https://i.imgur.com/J2EAZPS.png" group-title="Actualités",TV Brusque (720p)
 https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCamara.br" tvg-logo="https://i.imgur.com/Sdou1Ab.png" group-title="Institutions",TV Camara (1080p)
+#EXTINF:-1 tvg-id="TV Camara" tvg-logo="https://i.imgur.com/Sdou1Ab.png" group-title="Institutions",TV Camara (1080p)
 https://stream3.camara.gov.br/tv1/video1_stream.m3u8
 #EXTINF:-1 tvg-id="TVCarioca.br" tvg-logo="https://i.imgur.com/mVWydMw.png" group-title="Généralistes",TV Carioca (1080p)
 https://video03.logicahost.com.br/cariocainternacional1/cariocainternacional1/playlist.m3u8
@@ -387,7 +387,7 @@ https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m
 https://video10.logicahost.com.br/tvmon/tvmon/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPadreCicero.br" tvg-logo="https://i.imgur.com/Y7b29VG.png" group-title="Religion",TV Padre Cicero (720p)
 https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPaiEterno.br" tvg-logo="https://i.imgur.com/iuoXchN.png" group-title="Religion",TV Pai Eterno (1080p)
+#EXTINF:-1 tvg-id="TV Pai Eterno HD" tvg-logo="https://i.imgur.com/iuoXchN.png" group-title="Religion",TV Pai Eterno (1080p)
 https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 #EXTINF:-1 tvg-id="TVParaense.br" tvg-logo="https://duckduckgo.com/i/e408ea02.png" group-title="Cuisine et vie pratique",TV Paraense (720p)
 https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u

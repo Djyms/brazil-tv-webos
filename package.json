@@ -4,6 +4,6 @@
   "private": true,
   "license": "Apache-2.0",
   "engines": { "node": ">=20" },
-  "scripts": { "build": "node build.mjs", "test": "node --test verify.test.mjs" },
+  "scripts": { "build": "node build.mjs", "test": "node --test verify.test.mjs health-patch.test.cjs recovery-patch.test.cjs epg-resolvers.test.cjs epg-playlists.test.cjs" },
   "devDependencies": { "@webos-tools/cli": "3.2.6" }
 }

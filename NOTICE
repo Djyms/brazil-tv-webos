@@ -4,8 +4,10 @@ Original license: Apache License 2.0 (see LICENSE).
 
 Customizations by Djyms, 2026: Brazil TV artwork, scoped HLS playback policy,
 public-player source resolution, uploaded-playlist startup recovery and webOS
-settings layout correction. Reproducible transformations are in patch-player.cjs,
-stream-resolvers.js, settings-fix.css and build.mjs.
+settings layout correction, bounded live recovery, source-aware health checks
+and regional programme-guide conversion. Reproducible transformations are in
+patch-player.cjs, stream-resolvers.js, health-patch.cjs, recovery-patch.cjs,
+epg-resolvers.js, settings-fix.css and build.mjs.
 
 hls.js 1.6.16 by video-dev / Dailymotion is downloaded with a pinned hash.
 Its Apache 2.0 license is retained inside the generated app. All original
@@ -16,3 +18,9 @@ with public broadcast-player endpoints for selected channels. See sources.json.
 Channel content, names and logos belong to their respective owners. This
 repository does not host or grant rights to broadcast content and has no
 affiliation with LG, broadcasters, streaming platforms or the original author.
+
+Programme-guide sources: EPGShare, matthuisman/i.mjh.nz and
+limaalef/BrazilTVEPG. The optional TV Bahia adapter reads the publicly published
+regional schedule from Rede Bahia / Globo. Programme information retains its
+respective ownership; no broadcast video or personal access credentials are
+included in these guide mappings.

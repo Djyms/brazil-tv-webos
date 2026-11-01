@@ -50,6 +50,9 @@ put('largeIcon.png',await fs.readFile(path.join(root,'icon130.png')));
 put('js/brazil-hls.min.js',hlsBytes);put('licenses/brazil-hls.txt',hlsNotice);
 put('js/brazil-hls-init.js','window.__Hls = window.Hls;\n');
 put('js/brazil-resolvers.js',await fs.readFile(path.join(root,'stream-resolvers.js')));
+const epgResolver=await fs.readFile(path.join(root,'epg-resolvers.js'),'utf8');
+put('js/brazil-epg-resolvers.js',epgResolver);
+put('js/app-worker.js','"use strict";\n'+epgResolver+'\n'+get('js/app-worker.js').data.toString());
 put('css/brazil-settings-fix.css',await fs.readFile(path.join(root,'settings-fix.css')));
 put('BRAZIL_TV_NOTICE.txt',await fs.readFile(path.join(root,'NOTICE')));
 let html=get('index.html').data.toString();
@@ -57,7 +60,7 @@ assert.equal(html.split('</head>').length,2);
 html=html.replace('</head>','<link rel="stylesheet" href="css/brazil-settings-fix.css">\n</head>');
 const appScript=/<script\b[^>]*src=["']js\/app\.js["'][^>]*>/;
 assert(appScript.test(html),'Missing main app script');
-html=html.replace(appScript,match=>'<script src="js/brazil-hls.min.js"></script>\n<script src="js/brazil-hls-init.js"></script>\n<script src="js/brazil-resolvers.js"></script>\n'+match);
+html=html.replace(appScript,match=>'<script src="js/brazil-hls.min.js"></script>\n<script src="js/brazil-hls-init.js"></script>\n<script src="js/brazil-resolvers.js"></script>\n<script src="js/brazil-epg-resolvers.js"></script>\n'+match);
 put('index.html',html);
 const dist=path.join(root,'dist');await fs.mkdir(dist,{recursive:true});
 const name=`${ID}_1.17.0_all.ipk`;
@@ -83,5 +86,5 @@ try {
 }
 const result=await fs.readFile(path.join(dist,name));
 await fs.writeFile(path.join(dist,'SHA256SUMS'),`${digest(result)}  ${name}\n`);
-await fs.writeFile(path.join(dist,'build-info.json'),JSON.stringify({id:ID,upstreamVersion:'1.17.0',customRevision:1,upstreamSha256:upstream.sha,hlsVersion:'1.6.16',webosCliVersion:'3.2.6',packageSha256:digest(result)},null,2)+'\n');
+await fs.writeFile(path.join(dist,'build-info.json'),JSON.stringify({id:ID,upstreamVersion:'1.17.0',customRevision:2,upstreamSha256:upstream.sha,hlsVersion:'1.6.16',webosCliVersion:'3.2.6',packageSha256:digest(result)},null,2)+'\n');
 console.log(`Built ${name}; SHA-256 ${digest(result)}`);

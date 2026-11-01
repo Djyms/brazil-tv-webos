@@ -16,10 +16,16 @@ ou sur tous les modèles de TV. Aucun géoblocage, abonnement ou contrôle d'acc
 
 Les indications 720p/1080p correspondent aux observations faites lors de la sélection.
 Les flux peuvent changer de qualité, être interrompus ou devenir indisponibles.
-La validation du paquet public a confirmé l'installation, le chargement des 167 chaînes,
+La validation de la première préversion publique a confirmé l'installation, le chargement des 167 chaînes,
 leur rechargement après redémarrage, ainsi que la lecture de TV Brasil et Band en
 1280 × 720, avec son et image en progression. Toutes les chaînes n'ont pas été
 retestées lors de cette publication. Voir aussi les [notes de version](https://github.com/Djyms/brazil-tv-webos/releases).
+
+Les corrections de lecture et du guide ont également été vérifiées sur la configuration
+personnelle de cette même TV, en France. Le guide y affichait une émission en cours
+pour 73 chaînes et 4 046 programmes chargés. Ce total comprend TV Bahia, absente des
+playlists publiques. Un essai de Globo de plus de sept minutes en 1080 avec le son
+n'a montré ni gel ni erreur réseau ; la cause du gel initial n'a pas été établie.
 
 ## Quelle playlist choisir ?
 
@@ -33,6 +39,47 @@ Ajoute **une seule** de ces adresses : elle permet une recherche commune dans le
 Les chaînes sont classées par thème. Les deux listes se recoupent : les importer
 toutes les deux créerait des doublons, sans ajouter de chaînes à la liste Brazil TV.
 
+## Guide des programmes
+
+Les listes publiques déclarent désormais leurs sources XMLTV et les identifiants
+vérifiés des chaînes. À la date des essais du **1er novembre 2026**, le guide couvre
+**72 chaînes sur 167** dans la liste Brazil TV, ou **69 sur 164** dans la liste classique.
+Il ne couvre pas toutes les chaînes. Les correspondances sont documentées dans
+[epg-sources.json](epg-sources.json).
+
+| Source du guide | Chaînes associées dans Brazil TV |
+| --- | ---: |
+| [EPGShare BR1](https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz) | 2 |
+| [EPGShare BR2](https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz) | 8 |
+| [Pluto TV Brésil, par matthuisman](https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/br.xml.gz) | 52 |
+| [Claro, par limaalef/BrazilTVEPG](https://raw.githubusercontent.com/limaalef/BrazilTVEPG/main/claro.xml) | 10 |
+
+Dans Brazil TV, importe la liste choisie ou actualise la source déjà enregistrée,
+puis utilise **Paramètres → Gestion des données → Actualiser toutes les données**.
+Le lecteur récupère les sources de guide déclarées dans la playlist. Sur la TV de
+test, l'actualisation du guide est réglée sur **1 heure**. Pour un autre lecteur,
+la prise en charge des sources XMLTV déclarées dans une playlist peut varier.
+
+Les horaires sont convertis dans le fuseau de la TV ; les essais en France ont été
+faits sans ajouter de décalage manuel. Les données se renouvellent : Pluto fournit
+un horizon plus court que certains guides nationaux. Une chaîne sans données
+fiables conserve « Aucune information sur le programme ». Les grilles nationales
+de SBT, Record et Band peuvent différer pendant les décrochages locaux.
+
+### Guide régional TV Bahia, pour une source personnelle autorisée
+
+L'application inclut un adaptateur de la [programmation officielle de la Rede Bahia](https://redeglobo.globo.com/redebahia/programacao/).
+Si tu disposes déjà d'une source TV Bahia valide et autorisée, tu peux ajouter cette
+adresse comme source de guide dans Brazil TV et associer la chaîne à **`TVBahia.br`** :
+
+`https://redeglobo.globo.com/redebahia/programacao/`
+
+L'adaptateur transforme les horaires régionaux publiés en XMLTV lors du chargement,
+y compris dans le processus de chargement du guide en arrière-plan. Cette adresse
+est une page HTML : elle ne fonctionne pas directement comme XMLTV dans un lecteur
+sans cet adaptateur. Elle fournit des **horaires**, aucun accès au flux vidéo.
+TV Bahia reste exclue des playlists publiques ; le guide public reste donc à 72 chaînes.
+
 ## Comment obtenir les trois chaînes supplémentaires ?
 
 Les trois chaînes concernées sont **Band**, **TV Gazeta** et **Rede Vida**.
@@ -41,7 +88,7 @@ adresse HLS permanente. Elles sont donc absentes de la liste M3U classique de 16
 L'application Brazil TV contient les résolveurs nécessaires pour demander l'adresse
 de lecture au démarrage, lorsque le lecteur public autorise l'accès.
 
-1. Télécharge le fichier `.ipk` Brazil TV dans les [Releases](https://github.com/Djyms/brazil-tv-webos/releases/tag/v1.17.0-brazil.1).
+1. Télécharge le fichier `.ipk` Brazil TV dans les [Releases](https://github.com/Djyms/brazil-tv-webos/releases/tag/v1.17.0-brazil.2).
 2. Installe-le avec webOS Dev Manager ou les outils de développement webOS.
 3. Dans les paramètres des sources/playlists de l'application, ajoute **la première URL du tableau**, celle qui se termine par `brasil-braziltv.m3u`.
 4. Enregistre/applique les paramètres : la liste initiale comporte **167 chaînes**, dont ces trois chaînes supplémentaires.
@@ -75,7 +122,20 @@ Cette personnalisation de la version **1.17.0** du lecteur comprend :
 - la récupération des playlists envoyées après le démarrage du service, pour éviter l'affichage de zéro chaîne ;
 - la correction de la zone des paramètres sur webOS 5 ;
 - l'activation HLS par chaîne et la préférence HD pour les entrées explicitement marquées ;
-- les résolveurs de lecteurs publics utilisés par les trois chaînes décrites ci-dessus.
+- les résolveurs de lecteurs publics utilisés par les trois chaînes décrites ci-dessus ;
+- la reprise bornée des flux en direct lorsqu'une tentative de redémarrage échoue sans erreur explicite de format ;
+- le contrôle de disponibilité sur le flux résolu et sur un segment HLS récent ;
+- les associations de guide vérifiées et l'adaptateur régional TV Bahia.
+
+Le contrôle de disponibilité ne traite plus les métadonnées de Gazeta et Rede Vida
+comme un flux vidéo invalide. Pour une liste HLS média, il teste le dernier segment
+complet annoncé, afin d'éviter les faux échecs causés par un ancien segment déjà
+supprimé. Les erreurs de serveur et les refus d'accès restent signalés.
+
+Une tentative de reprise silencieusement rejetée par le lecteur natif peut utiliser
+les tentatives de reconnexion encore configurées. Les vrais formats refusés et les
+erreurs explicites de format restent des échecs ; aucune boucle de reconnexion
+illimitée n'est ajoutée.
 
 Les traductions et fonctions du lecteur original sont conservées. Le projet ne
 constitue pas un nouveau lecteur développé de zéro.
@@ -110,3 +170,7 @@ la propriété de leurs titulaires. Aucun programme vidéo n'est hébergé ici. 
 public ne confère pas de droits sur son contenu : utilise les flux là où leur
 diffusion est autorisée. Les demandes de correction ou retrait peuvent être adressées
 dans les Issues du dépôt.
+
+Guides : **EPGShare**, **matthuisman/i.mjh.nz** et **limaalef/BrazilTVEPG**.
+L'adaptateur TV Bahia lit uniquement la programmation régionale publique de la
+**Rede Bahia / Globo**. Les données de programme restent la propriété de leurs titulaires.
