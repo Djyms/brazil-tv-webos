@@ -1,56 +1,89 @@
-# Brazil TV para webOS
+# Brazil TV pour webOS — sélection pour la France
 
-Uma seleção de canais brasileiros HD e uma personalização independente do
+Français · [Português](README.pt-BR.md)
+
+**Chaînes brésiliennes HD sélectionnées, configurées et testées depuis la France.**
+Ce projet rassemble une sélection de flux et une personnalisation indépendante du
 [webOS IPTV Player](https://github.com/lennylxx/webos-iptv-player) de **lennylxx**.
-Este projeto não é uma versão oficial do aplicativo original ou de qualquer emissora.
+Il ne s'agit pas d'une application officielle des diffuseurs, de LG ou de l'auteur du lecteur original.
 
-## Listas / Playlists
+## Optimisation et tests depuis la France
 
-Adicione **uma** destas URLs ao seu leitor. A busca reúne os canais da lista escolhida.
+Le choix des sources, les réglages de lecture et les préférences HD ont été mis au
+point pour une utilisation **depuis la France**, sur une **LG OLED CX sous webOS 5.6.2**.
+Il s'agit du pays des essais, pas d'une garantie de disponibilité dans tous les pays
+ou sur tous les modèles de TV. Aucun géoblocage, abonnement ou contrôle d'accès n'est supprimé.
 
-| Leitor | URL | Canais na publicação inicial |
+Les indications 720p/1080p correspondent aux observations faites lors de la sélection.
+Les flux peuvent changer de qualité, être interrompus ou devenir indisponibles.
+La validation du paquet public a confirmé l'installation, le chargement des 167 chaînes,
+leur rechargement après redémarrage, ainsi que la lecture de TV Brasil et Band en
+1280 × 720, avec son et image en progression. Toutes les chaînes n'ont pas été
+retestées lors de cette publication. Voir aussi les [notes de version](https://github.com/Djyms/brazil-tv-webos/releases).
+
+## Quelle playlist choisir ?
+
+Ajoute **une seule** de ces adresses : elle permet une recherche commune dans les chaînes sélectionnées.
+
+| Utilisation | Adresse à importer | Nombre initial |
 | --- | --- | --- |
-| Brazil TV deste projeto | `https://raw.githubusercontent.com/Djyms/brazil-tv-webos/main/brasil-braziltv.m3u` | 167 |
-| Outros leitores M3U | `https://raw.githubusercontent.com/Djyms/brazil-tv-webos/main/brasil.m3u` | 164 |
+| Application Brazil TV de ce dépôt | `https://raw.githubusercontent.com/Djyms/brazil-tv-webos/main/brasil-braziltv.m3u` | **167 chaînes** |
+| Autres lecteurs M3U classiques | `https://raw.githubusercontent.com/Djyms/brazil-tv-webos/main/brasil.m3u` | **164 chaînes** |
 
-A lista Brazil TV inclui três páginas de players públicos que o aplicativo resolve
-ao iniciar a reprodução: Band, TV Gazeta e Rede Vida. Elas não são URLs HLS diretas;
-a lista padrão as omite para funcionar em outros leitores.
+Les chaînes sont classées par thème. Les deux listes se recoupent : les importer
+toutes les deux créerait des doublons, sans ajouter de chaînes à la liste Brazil TV.
 
-Os canais são agrupados por tema. As indicações 720p/1080p correspondem aos testes
-realizados na seleção original; disponibilidade e resolução podem mudar.
-Não há assinatura, conta de IPTV, lista paga, chave DRM ou vídeo hospedado neste repositório.
-Nenhuma restrição de conta, acesso ou localização é removida. Um link público não
-concede direitos sobre o conteúdo: utilize apenas onde a transmissão for autorizada.
+## Comment obtenir les trois chaînes supplémentaires ?
 
-O snapshot público omite o link Globo/TV Bahia cuja origem não foi confirmada e
-um link Unisul com token. Ele é diferente da configuração pessoal de 169 canais.
-Fontes da seleção e exclusões: [sources.json](sources.json).
+Les trois chaînes concernées sont **Band**, **TV Gazeta** et **Rede Vida**.
+Leur entrée utilise une page ou des métadonnées de lecteur public, plutôt qu'une
+adresse HLS permanente. Elles sont donc absentes de la liste M3U classique de 164 chaînes.
+L'application Brazil TV contient les résolveurs nécessaires pour demander l'adresse
+de lecture au démarrage, lorsque le lecteur public autorise l'accès.
 
-## Aplicativo
+1. Télécharge le fichier `.ipk` Brazil TV dans les [Releases](https://github.com/Djyms/brazil-tv-webos/releases/tag/v1.17.0-brazil.1).
+2. Installe-le avec webOS Dev Manager ou les outils de développement webOS.
+3. Dans les paramètres des sources/playlists de l'application, ajoute **la première URL du tableau**, celle qui se termine par `brasil-braziltv.m3u`.
+4. Enregistre/applique les paramètres : la liste initiale comporte **167 chaînes**, dont ces trois chaînes supplémentaires.
 
-Baixe o arquivo `.ipk` em **Releases** e instale pelo webOS Dev Manager ou pelas
-ferramentas de desenvolvimento webOS. Identificador: `com.djyms.braziltv`.
-Ele pode coexistir com `com.lennylxx.iptv`; não migra favoritos, histórico ou
-configurações pessoais. Depois, adicione a URL Brazil TV acima nas configurações
-de playlists do aplicativo.
+Ajouter simplement leurs adresses de métadonnées à un lecteur HLS classique ne suffit
+pas. Le résolveur doit être pris en charge. Cette fonction ne fournit ni compte,
+abonnement, clé DRM ni accès à un flux refusé par son diffuseur.
 
-Personalizações:
+## Pourquoi la configuration personnelle comptait-elle 169 chaînes ?
 
-- Ícone Brazil TV com fundo preto.
-- Recuperação da lista enviada após o início do serviço, evitando o estado de zero canais.
-- Correção da área de configurações em webOS 5.
-- HLS opt-in por canal e preferência HD para os canais explicitamente marcados.
-- Resolução de sessões de players públicos, respeitando recusa de acesso e conteúdo protegido.
+La sélection personnelle d'origine comprenait aussi **Globo – TV Bahia** et **Unisul TV**.
+Le lien TV Bahia n'a pas une provenance suffisamment confirmée pour cette publication,
+et le lien Unisul comportait un jeton d'accès. Ils ne sont pas inclus dans les listes publiques.
 
-As traduções e os recursos do leitor original são preservados. A base é a versão
-**1.17.0**, com uma revisão Brazil TV separada. O código e as licenças originais
-continuam disponíveis no projeto de origem. Não se trata de um novo player criado do zero.
+Les **trois chaînes supplémentaires ci-dessus sont déjà comprises dans les 167 chaînes** :
+elles ne font pas passer le total de 167 à 170. Il n'existe pas de réglage « 169 chaînes ».
+Pour compléter personnellement une liste, il faut disposer de sources supplémentaires
+valides et autorisées, puis les ajouter dans les paramètres des sources. Le dépôt ne
+distribue pas ces deux anciens liens ni de jeton personnel. La disponibilité de Globo
+n'est pas garantie par cette publication.
 
-## Build reproduzível
+## Application et personnalisations
 
-Requer Node.js 20 ou mais recente e acesso à Internet. O empacotamento utiliza a
-ferramenta oficial webOS CLI 3.2.6, fixada nas dependências de desenvolvimento.
+Identifiant de l'application publique : **`com.djyms.braziltv`**.
+Elle peut coexister avec `com.lennylxx.iptv`. Favoris, historique et configuration
+personnelle ne sont pas migrés automatiquement.
+
+Cette personnalisation de la version **1.17.0** du lecteur comprend :
+
+- l'icône Brazil TV sur fond noir ;
+- la récupération des playlists envoyées après le démarrage du service, pour éviter l'affichage de zéro chaîne ;
+- la correction de la zone des paramètres sur webOS 5 ;
+- l'activation HLS par chaîne et la préférence HD pour les entrées explicitement marquées ;
+- les résolveurs de lecteurs publics utilisés par les trois chaînes décrites ci-dessus.
+
+Les traductions et fonctions du lecteur original sont conservées. Le projet ne
+constitue pas un nouveau lecteur développé de zéro.
+
+## Fabriquer le paquet
+
+Prérequis : Node.js 20 ou plus récent et accès Internet. L'outil officiel webOS CLI
+3.2.6 est fixé dans les dépendances de développement.
 
 ```sh
 npm ci
@@ -58,34 +91,22 @@ npm run build
 npm test
 ```
 
-O script baixa o IPK oficial 1.17.0 e hls.js 1.6.16, verifica hashes SHA-256 fixos,
-aplica as transformações documentadas e usa o empacotador oficial para criar
-`dist/com.djyms.braziltv_1.17.0_all.ipk`.
-Os arquivos `SHA256SUMS` e `build-info.json` acompanham o resultado. As verificações
-estáticas de um pacote não substituem os testes no televisor; consulte as notas da release.
-Nenhum arquivo, endereço ou credencial do televisor pessoal é usado pelo build.
+Le script télécharge le paquet officiel 1.17.0 et hls.js 1.6.16, vérifie leurs
+empreintes SHA-256, applique les transformations publiées et utilise l'outil officiel
+pour produire `dist/com.djyms.braziltv_1.17.0_all.ipk`.
+`SHA256SUMS` et `build-info.json` accompagnent le résultat. Les contrôles de fichiers
+ne remplacent pas les essais sur TV. Le build ne lit aucun fichier, adresse ou
+identifiant du téléviseur personnel.
 
-## Français
+## Sources, licences et crédits
 
-Cette publication rassemble les listes et les modifications Brazil TV. Utilise la
-première URL avec notre application, ou la seconde dans un lecteur M3U classique.
-Une seule liste suffit pour effectuer une recherche commune. Les correctifs ont été
-mis au point sur une LG OLED CX sous webOS 5.6.2. La version publique a son propre
-identifiant et ne remplace pas l'installation personnelle ni ses réglages.
+Code et kit de personnalisation : Apache-2.0, voir [LICENSE](LICENSE) et [NOTICE](NOTICE).
+Lecteur original : **lennylxx**. hls.js : **video-dev / Dailymotion**, Apache-2.0.
+Les licences et mentions des composants d'origine sont conservées dans l'application.
 
-## English
-
-An unofficial Brazil-focused customization kit and channel selection. Use the first
-playlist with this build and the second with ordinary M3U players. The build downloads
-checksum-pinned upstream artifacts, preserves their notices, and applies the published
-transformations. No user data, subscriptions, DRM keys or hosted video are included.
-Stream availability is not guaranteed. This project is not affiliated with broadcasters,
-LG, streaming platforms or the original player author.
-
-## Licenças e créditos
-
-Code/customization kit: Apache-2.0, see [LICENSE](LICENSE) and [NOTICE](NOTICE).
-Original player: lennylxx. hls.js: video-dev / Dailymotion, Apache-2.0.
-Collections: iptv-org/iptv, Free-TV/IPTV and iptv-com/iptv; the links and channel artwork
-retain their respective ownership. Requests to correct or remove a link are welcome
-through the repository's Issues page.
+Collections utilisées : **iptv-org/iptv**, **Free-TV/IPTV** et **iptv-com/iptv** ;
+voir [sources.json](sources.json). Les contenus, noms et logos des chaînes restent
+la propriété de leurs titulaires. Aucun programme vidéo n'est hébergé ici. Un lien
+public ne confère pas de droits sur son contenu : utilise les flux là où leur
+diffusion est autorisée. Les demandes de correction ou retrait peuvent être adressées
+dans les Issues du dépôt.
